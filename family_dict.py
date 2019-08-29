@@ -29,9 +29,7 @@ my_family = {
 # 2. Using a dictionary comprehension, produce output that looks like the following example.
 
 for key, value in my_family.items():
-    age_string = str(value["age"])
-    print(f'{value["name"]} is my {key} and is {age_string} years old')
-
+    print(f'{value["name"]} is my {key} and is {str(value["age"])} years old')
 
 
 # Krista is my sister and is 42 years old
